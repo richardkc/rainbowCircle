@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.red.active{
+    background: red;
+}
+.orange.active{
+    background: orange;
+}
+.yellow.active{
+    background: yellow;
+}
+.green.active{
+    background: green;
+}
+.blue.active{
+    background: blue;
+}
+.indigo.active{
+    background: indigo;
+}
+.purple.active{
+    background: purple;
+}
+.purple{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 40px;
+    color: purple;
+}
+body{
+    text-align: center;
+}
+div{
+    padding: 20px;
+    transition: all 1s;
+    border-radius: 50%;
+    display: inline-block;
+}
